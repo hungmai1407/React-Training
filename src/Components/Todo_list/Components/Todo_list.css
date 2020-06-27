@@ -1,0 +1,155 @@
+.content_columns{
+    width: 30%;
+    height: 500px;
+    background-color: #cbf1ff;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+.content_columns_header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.App__content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.button_modal{
+    height: 30px;
+   margin-top: 18px;
+   font-size: 18px;
+}
+.Number_Task{
+    padding: 7px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.Modal_Content{
+    padding: 20px;
+    width: 450px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px black;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    opacity: 0.94;
+}
+
+.item_Task{
+    background-color: white;
+    margin: 0px 15px 15px 15px;
+    padding: 5px;
+    height: 70px;
+    border-radius: 10px;
+    transition: 0.2s;
+    position: relative;
+    border:1px solid gray
+}
+.item_Task:hover{
+    box-shadow: 3px 3px 7px black;
+}
+.Title_task{
+    position: absolute ;
+    left: 40px;
+}
+/* .Name_Task{
+    text-align: left !important;
+} */
+.button_action_task{
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+}
+.button_action_task button{
+    border: none;
+    outline: none;
+    background-color: #cd323200;
+    padding: 10px;
+    transition: 0.4s;
+}
+.button_action_task button:hover{
+    color:blue;
+    font-weight: 600;
+}
+.button_action_task button:first-child:hover{
+    color: red;
+    font-weight: 600;
+}
+
+.item_Task h2{
+    margin-top: 8px;
+}
+.content_columns{
+    min-height: 200px;
+    height: auto;
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.label{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 14px;
+}
+.Checkbox_Id{
+    display: flex;
+    justify-content: space-between
+}
+
+.inputName{
+    margin-top: 26px;
+    font-size: 22px;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 5px;
+    padding: 6px;
+    width: 86%;
+}
+ .inputName:focus{
+     outline: none;
+ }
+ .Modal_Footer{
+     margin-top: 30px;
+ }
+
+#save{
+    margin-right: 20px;
+
+}
+#back{
+    margin-left: 20px;
+}
+
+#save:hover{
+  background-color: blue;
+  color: white;
+
+}
+#back:hover{
+    background-color: red;
+    color: white;
+
+}
+
+.Modal_Footer button{
+    width: 87px;
+    height: 39px;
+    border: none;
+    border-radius: 10px;
+    background-color: #cccaca;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 19px;
+    box-sizing: border-box;
+    outline: none;
+}
+
